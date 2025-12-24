@@ -1,0 +1,19 @@
+{
+  "name": "ip2geo/ip2geo-php",
+  "description": "Official PHP SDK for the Ip2Geo API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vijay Prajapati"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ip2Geo\\": "src/"
+    }
+  }
+}
