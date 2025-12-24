@@ -8,7 +8,7 @@ class Ip2Geo
     private int $timeout;
     private string $baseUrl = 'https://api.ip2geoapi.com/ip';
 
-    public function __construct(string $apiKey = '', int $timeout = 10)
+    public function __construct(string $apiKey = '', int $timeout = 60)
     {
         $this->apiKey = $apiKey;
         $this->timeout = $timeout;
