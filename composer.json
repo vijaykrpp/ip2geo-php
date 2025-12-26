@@ -1,5 +1,6 @@
 {
   "name": "ip2geo/ip2geo-php",
+  "version": "1.0.0",
   "description": "Official PHP SDK for the Ip2Geo API",
   "type": "library",
   "license": "MIT",
